@@ -34,6 +34,6 @@ Alternative method, you can run our `demovida.ipynb` for all of these
 
 ### Unbiased Teacher with FasterRCNN-R50
 
-<td><img alt="" src="./UnbiasedTeacher/UT.png" />
+<td><img alt="" src="./Unbiased Teacher/UT.png" />
 
 `Unbiased Teacher` model's mAP

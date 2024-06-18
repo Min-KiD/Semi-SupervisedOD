@@ -2,7 +2,7 @@
 
 This is our computer vision project 
 
-link drive for report and weight of models: https://drive.google.com/drive/folders/1WCGLPBoWY2ovkOcNZLrQ5jC0fDF_u5uJ
+report can be seen at `.pdf`
 
 Project aim: leverage both labeled and unlabeled data to improve the performance of object detection models, utilizing a combination of a small set of labeled data and a larger set of unlabeled data
 
@@ -20,9 +20,13 @@ Project aim: leverage both labeled and unlabeled data to improve the performance
 
 ## Infer
 
-Alternative method, you can run our `demovida.ipynb` for all of these
+Alternative method, you can run our `semisod-infer.ipynb` for all of these, we have 2 ways of infer, one by SSD model, one by Retina model but based on detectron2 and it will run slower when building wheel for detectron2
+
+weight for these 2 will be seen at https://www.kaggle.com/datasets/minmints/weightsod/data for SSD and https://www.kaggle.com/datasets/kid2108/weightretinatest/data for RetinaNet
 
 ## Models
+
+We have experiment with FasterRCNN-R50, RetinaNet-R50, SSD300-VGG16, YoLov9,v10 and DERT
 
 ## Some outstanding Results 
 

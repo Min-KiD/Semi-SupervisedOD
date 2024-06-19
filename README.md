@@ -28,6 +28,8 @@ weight for these 2 will be seen at https://www.kaggle.com/datasets/minmints/weig
 
 We have experiment with FasterRCNN-R50, RetinaNet-R50, SSD300-VGG16, YoLov9,v10, DETR, Unbiased Teacher, Efficient Teacher
 
+- RetinaNet_R50 is choosing with NMS and score threshold 0.15 and 0.3 with label data can be found at `Retina` folder, full is full data include unlabel data has been label by YoLov9-C fould at `YoLo` folder
+
 - Unbiased Teacher in code is 2000 steps but the result we achieve is by running 20700 steps, you increase the steps if you have enough hardware requirement GB
 
 - Efficient Teacher is using YoLov5-L

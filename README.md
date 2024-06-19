@@ -26,7 +26,11 @@ weight for these 2 will be seen at https://www.kaggle.com/datasets/minmints/weig
 
 ## Models
 
-We have experiment with FasterRCNN-R50, RetinaNet-R50, SSD300-VGG16, YoLov9,v10 and DERT
+We have experiment with FasterRCNN-R50, RetinaNet-R50, SSD300-VGG16, YoLov9,v10, DETR, Unbiased Teacher, Efficient Teacher
+
+- Unbiased Teacher in code is 2000 steps but the result we achieve is by running 20700 steps, you increase the steps if you have enough hardware requirement GB
+
+- Efficient Teacher is using YoLov5-L
 
 ## Some outstanding Results 
 

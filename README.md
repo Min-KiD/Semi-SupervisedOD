@@ -2,7 +2,7 @@
 
 This is our computer vision project 
 
-report can be seen at `.pdf`
+report can be seen at `cv_semi.pdf`
 
 Project aim: leverage both labeled and unlabeled data to improve the performance of object detection models, utilizing a combination of a small set of labeled data and a larger set of unlabeled data
 
